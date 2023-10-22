@@ -1,47 +1,81 @@
-/* Reset de margens e preenchimentos para todos os elementos */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Adicionei esta linha para incluir borda e preenchimento no cálculo do tamanho do elemento. */
 }
 
 body {
-    background-color: bisque;
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
 }
 
 .header {
     background-color: brown;
-    height: 65px;
-    display: flex;
-    align-items: center; /* Centralize verticalmente o conteúdo do cabeçalho. */
-    justify-content: space-between; /* Crie espaço entre os elementos internos do cabeçalho. */
-    padding: 0 20px; /* Adicionei preenchimento nas laterais para espaçamento. */
+    text-align: center;
+    padding-top: 15px;
+    
 }
 
 .banner {
-    /* Certifique-se de definir uma altura e um tamanho de plano de fundo apropriados. */
+    background-image: url("arquivos/");
     background-position: center;
     background-size: cover;
-    height: 300px; /* Defina a altura apropriada para o banner. */
+    height: 300px;
 }
 
+
+
 .card {
-    width: 200px; /* Adicione "px" para especificar a unidade de largura. */
+    width: 500px;
     margin: auto;
-    padding: 20px;
-    background-color: rgb(252, 230, 204);
-    box-shadow: 1px 1px 6px #000;
-    border-radius: 10px;
+    padding: 50px;
+    background-color: rgb(250, 238, 222);
+    margin: 50px auto;
+    border-radius: 5px;
+    font-weight: 300;
 }
 
 h1 {
+    text-align: center;
     font-weight: 400;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: #000000;
+    margin-bottom: 20px;
 }
 
 li {
-    list-style-position: outside;
+    list-style-position: inside;
+    line-height: 35px;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.botao {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.botao:hover {
+    background-color: brown;
+}
+
+.titulo-receita {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.link-footer {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -51,15 +85,17 @@ ul {
     padding: 16px;
 }
 
+/* Estiliza links */ 
 a {
     color: black;
-    width: 100px; /* Adicione "px" para especificar a unidade de largura. */
+    width: 100px;
     margin: auto;
     padding: 10px;
-    text-align: center; /* Centralize o texto no link. */
-    text-decoration: none; /* Remova a sublinhado padrão. */
+    text-align: center; /* Centraliza o texto no link. */
+    text-decoration: none; /* Remove o sublinhado padrão. */
 }
 
+/* Estiliza botões de login */
 .login-button {
     display: flex;
     align-items: center;
@@ -83,6 +119,7 @@ a {
     color: aliceblue;
 }
 
+/* Estiliza o cabeçalho do formulário */
 .form-header h1::after {
     content: '';
     display: block;
@@ -94,6 +131,7 @@ a {
     border-radius: 10px;
 }
 
+/* Estiliza grupos de entrada */
 .input-group {
     display: flex;
     flex-wrap: wrap;
@@ -101,20 +139,28 @@ a {
     padding: 1rem 0;
 }
 
+/* Estiliza caixas de entrada */
 .input-box input {
     margin: 0.6rem;
     padding: 0.8rem 1.2rem;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #000;
-    width: 100%; /* Faça os campos de entrada ocuparem 100% do espaço disponível. */
+    width: 100%; /* Faz os campos de entrada ocuparem 100% do espaço disponível. */
 }
 
+/* Estiliza o rodapé */
 .footer {
-    background-color: brown;
-    height: 65px;
+    background-color: antiquewhite;
+    height: 100px;
     text-align: center;
-    display: flex;
-    align-items: center; /* Centralize verticalmente o conteúdo do rodapé. */
-    padding: 0 20px; /* Adicione preenchimento nas laterais para espaçamento. */
+    text-align: center;
+    display: flow-root;
+    align-items: center; /* Centraliza verticalmente o conteúdo do rodapé. */
+    padding: 600; /* Adiciona preenchimento nas laterais para espaçamento. */
+    
 }
+
+
+
+
