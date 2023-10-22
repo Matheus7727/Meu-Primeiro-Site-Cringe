@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="header">
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">HOME</a>
-                </li>
-                <li>
-                    <a href="index.html">RECEITAS</a>
-                </li>
-                <li>
-                    <a href="cadastro.html">CADASTRO</a>
-                </li>
-            </ul>
-        </nav> 
-        
-    </div>
-    <div class="footer">
-        <p>Copyright - Receitas da Dova Jurema 2023 - Todos os Direitos Reservados</p>
-    </div>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="home.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="index.html">RECEITAS</a>
+                    </li>
+                    <li>
+                        <a href="cadastro.html">CADASTRO</a>
+                    </li>
+                </ul>
+            </nav> 
+            <main>
+                <div class="boas-vindas">
+                    <h1>Bem-vindo ao Meu Site</h1>
+                    <p>Uma mensagem de boas-vindas aqui.</p>
+                </div>
+            </main>
+            
+            <div class="card"></div>
+            <div class="footer">
+                <p>Copyright - Receitas da Dova Jurema 2023 - Todos os Direitos Reservados</p>
+            </div>
+    </body>
+    </html>
